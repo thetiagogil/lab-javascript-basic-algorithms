@@ -42,9 +42,13 @@ console.log(result);
 
 // 3.2
 
+let result = ""
+
 for (let i = hacker2.length - 1; i >= 0; i -= 1) {
-    console.log(hacker2[i]);
+    result += hacker2[i]
 }
+
+console.log(result);
 
 // 3.3
 
